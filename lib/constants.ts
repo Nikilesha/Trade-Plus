@@ -18,6 +18,89 @@ export const RISK_TOLERANCE_OPTIONS = [
     { value: 'High', label: 'High' },
 ];
 
+export const TICKER_TAPE_WIDGET_CONFIG = {
+    symbols: [
+        // US Tech
+        { proName: "NASDAQ:AAPL", title: "Apple" },
+        { proName: "NASDAQ:TSLA", title: "Tesla" },
+        { proName: "NASDAQ:GOOGL", title: "Google" },
+        { proName: "NASDAQ:AMZN", title: "Amazon" },
+        { proName: "NASDAQ:MSFT", title: "Microsoft" },
+        { proName: "NASDAQ:META", title: "Meta" },
+        { proName: "NASDAQ:NVDA", title: "Nvidia" },
+        { proName: "NASDAQ:AMD", title: "AMD" },
+        { proName: "NASDAQ:INTC", title: "Intel" },
+        { proName: "NASDAQ:ADBE", title: "Adobe" },
+
+        // US Finance
+        { proName: "NYSE:JPM", title: "JPMorgan" },
+        { proName: "NYSE:BAC", title: "Bank of America" },
+        { proName: "NYSE:WFC", title: "Wells Fargo" },
+        { proName: "NYSE:GS", title: "Goldman Sachs" },
+        { proName: "NYSE:MS", title: "Morgan Stanley" },
+
+        // Indian Stocks
+        { proName: "NSE:RELIANCE", title: "Reliance" },
+        { proName: "NSE:TCS", title: "TCS" },
+        { proName: "NSE:INFY", title: "Infosys" },
+        { proName: "NSE:HDFCBANK", title: "HDFC Bank" },
+        { proName: "NSE:ICICIBANK", title: "ICICI Bank" },
+        { proName: "NSE:SBIN", title: "SBI" },
+        { proName: "NSE:HINDUNILVR", title: "Hindustan Unilever" },
+        { proName: "NSE:LT", title: "L&T" },
+        { proName: "NSE:BHARTIARTL", title: "Airtel" },
+        { proName: "NSE:MARUTI", title: "Maruti Suzuki" },
+        { proName: "NSE:ADANIENT", title: "Adani Enterprises" },
+        { proName: "NSE:ONGC", title: "ONGC" },
+        { proName: "NSE:ITC", title: "ITC" },
+
+        // Major Indices
+        { proName: "NASDAQ:NDX", title: "Nasdaq 100" },
+        { proName: "NYSE:SPX", title: "S&P 500" },
+        { proName: "DJI", title: "Dow Jones" },
+        { proName: "NSE:NIFTY50", title: "Nifty 50" },
+        { proName: "BSE:SENSEX", title: "Sensex" },
+        { proName: "HKEX:HSI", title: "Hang Seng" },
+        { proName: "FOREXCOM:SPXUSD", title: "S&P 500 CFD" },
+
+        // Crypto
+        { proName: "BINANCE:BTCUSDT", title: "Bitcoin" },
+        { proName: "BINANCE:ETHUSDT", title: "Ethereum" },
+        { proName: "BINANCE:BNBUSDT", title: "BNB" },
+        { proName: "BINANCE:XRPUSDT", title: "XRP" },
+        { proName: "BINANCE:SOLUSDT", title: "Solana" },
+        { proName: "BINANCE:DOGEUSDT", title: "Dogecoin" },
+        { proName: "BINANCE:ADAUSDT", title: "Cardano" },
+
+        // Commodities
+        { proName: "FOREXCOM:GOLD", title: "Gold" },
+        { proName: "FOREXCOM:SILVER", title: "Silver" },
+        { proName: "NYMEX:CL1!", title: "Crude Oil" },
+        { proName: "NYMEX:NG1!", title: "Natural Gas" },
+
+        // FX
+        { proName: "FX:USDINR", title: "USD/INR" },
+        { proName: "FX:EURUSD", title: "EUR/USD" },
+        { proName: "FX:GBPUSD", title: "GBP/USD" },
+        { proName: "FX:USDJPY", title: "USD/JPY" },
+
+        // Global Stocks
+        { proName: "NYSE:NKE", title: "Nike" },
+        { proName: "NYSE:KO", title: "Coca-Cola" },
+        { proName: "NYSE:DIS", title: "Disney" },
+        { proName: "NYSE:V", title: "Visa" },
+        { proName: "NYSE:MA", title: "Mastercard" },
+    ],
+
+    showSymbolLogo: true,
+    colorTheme: "dark",
+    isTransparent: false,
+    displayMode: "adaptive",
+    locale: "en"
+};
+
+
+
 export const PREFERRED_INDUSTRIES = [
     { value: 'Technology', label: 'Technology' },
     { value: 'Healthcare', label: 'Healthcare' },
