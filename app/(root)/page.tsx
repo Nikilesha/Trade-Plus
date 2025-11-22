@@ -3,7 +3,8 @@ import {
     HEATMAP_WIDGET_CONFIG,
     MARKET_DATA_WIDGET_CONFIG,
     MARKET_OVERVIEW_WIDGET_CONFIG,
-    TOP_STORIES_WIDGET_CONFIG
+    TOP_STORIES_WIDGET_CONFIG,
+    TICKER_TAPE_WIDGET_CONFIG,
 } from "@/lib/constants";
 
 const Home = () => {
@@ -11,6 +12,16 @@ const Home = () => {
 
     return (
         <div className="flex min-h-screen home-wrapper flex-col gap-10">
+
+            {/* 🔥 NEW ROW: Ticker Tape (Below Header) */}
+            <section className="w-full home-section">
+                <TradingViewWidget
+                    scriptUrl={`${scriptUrl}ticker-tape.js`}
+                    config={TICKER_TAPE_WIDGET_CONFIG}
+                    className="custom-chart"
+                    height={120}
+                />
+            </section>
 
             {/* ROW 1: Market Overview (Left) + Top News (Right) */}
             <section className="grid w-full gap-8 home-section grid-cols-1 xl:grid-cols-3">
@@ -29,7 +40,6 @@ const Home = () => {
                 {/* Top Stories - Right Side */}
                 <div className="xl:col-span-1 mt-12">
                     <TradingViewWidget
-
                         scriptUrl={`${scriptUrl}timeline.js`}
                         config={TOP_STORIES_WIDGET_CONFIG}
                         className="custom-chart"
@@ -38,7 +48,7 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* ROW 2: Heatmap (FULL WIDTH) */}
+            {/* ROW 2: Heatmap */}
             <section className="w-full home-section">
                 <TradingViewWidget
                     title="Stock Heatmap"
@@ -49,7 +59,7 @@ const Home = () => {
                 />
             </section>
 
-            {/* ROW 3: Market Quotes (FULL WIDTH) */}
+            {/* ROW 3: Market Quotes */}
             <section className="w-full home-section">
                 <TradingViewWidget
                     title="Market Quotes"
