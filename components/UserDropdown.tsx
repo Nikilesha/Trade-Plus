@@ -25,7 +25,7 @@ const UserDropdown = () => {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
-                <Button variant="ghost" className="flex items-center gap-3 mb-5 text-gray-4 hover:text-yellow-500">
+                <Button variant="ghost" className="flex items-center gap-3 mb-8 text-gray-4 hover:text-yellow-500">
                     <Avatar className="h-8 w-8">
                         <AvatarImage src = "https://github.com/shadcn.png"></AvatarImage>
                         <AvatarFallback className="bg-yellow-500 text-yellow-900 text-sm font-bold">
