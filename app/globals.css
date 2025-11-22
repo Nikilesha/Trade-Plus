@@ -256,6 +256,9 @@
     .watchlist-btn {
         @apply bg-yellow-500 text-base hover:bg-yellow-500 text-gray-900 w-full rounded h-11 font-semibold cursor-pointer;
     }
+    .logo-position{
+        @apply flex items-center;
+    }
     .watchlist-remove {
         @apply bg-red-500! hover:bg-red-500! text-gray-900!
     }
