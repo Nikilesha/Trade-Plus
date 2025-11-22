@@ -15,12 +15,12 @@ const Header = () => {
                             width={140}
                             height={40}
                             loading="eager"
-                            className="cursor-pointer"
+                            className="cursor-pointer mb-10"
                         />
                     </Link>
                 </div>
 
-                <nav className="hidden sm:block">
+                <nav className="mb-5 hidden sm:block">
                     <NavItems />
                 </nav>
 
