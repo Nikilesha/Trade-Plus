@@ -128,7 +128,6 @@ export const MARKET_OVERVIEW_WIDGET_CONFIG = {
                 { s: 'NASDAQ:AAPL', d: 'Apple' },
                 { s: 'NASDAQ:GOOGL', d: 'Alphabet' },
                 { s: 'NASDAQ:MSFT', d: 'Microsoft' },
-                { s: 'NASDAQ:FB', d: 'Meta Platforms' },
                 { s: 'NYSE:ORCL', d: 'Oracle Corp' },
                 { s: 'NASDAQ:INTC', d: 'Intel Corp' },
             ],
