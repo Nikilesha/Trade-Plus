@@ -39,29 +39,6 @@ export const TICKER_TAPE_WIDGET_CONFIG = {
         { proName: "NYSE:GS", title: "Goldman Sachs" },
         { proName: "NYSE:MS", title: "Morgan Stanley" },
 
-        // Indian Stocks
-        { proName: "NSE:RELIANCE", title: "Reliance" },
-        { proName: "NSE:TCS", title: "TCS" },
-        { proName: "NSE:INFY", title: "Infosys" },
-        { proName: "NSE:HDFCBANK", title: "HDFC Bank" },
-        { proName: "NSE:ICICIBANK", title: "ICICI Bank" },
-        { proName: "NSE:SBIN", title: "SBI" },
-        { proName: "NSE:HINDUNILVR", title: "Hindustan Unilever" },
-        { proName: "NSE:LT", title: "L&T" },
-        { proName: "NSE:BHARTIARTL", title: "Airtel" },
-        { proName: "NSE:MARUTI", title: "Maruti Suzuki" },
-        { proName: "NSE:ADANIENT", title: "Adani Enterprises" },
-        { proName: "NSE:ONGC", title: "ONGC" },
-        { proName: "NSE:ITC", title: "ITC" },
-
-        // Major Indices
-        { proName: "NASDAQ:NDX", title: "Nasdaq 100" },
-        { proName: "NYSE:SPX", title: "S&P 500" },
-        { proName: "DJI", title: "Dow Jones" },
-        { proName: "NSE:NIFTY50", title: "Nifty 50" },
-        { proName: "BSE:SENSEX", title: "Sensex" },
-        { proName: "HKEX:HSI", title: "Hang Seng" },
-        { proName: "FOREXCOM:SPXUSD", title: "S&P 500 CFD" },
 
         // Crypto
         { proName: "BINANCE:BTCUSDT", title: "Bitcoin" },
@@ -75,11 +52,8 @@ export const TICKER_TAPE_WIDGET_CONFIG = {
         // Commodities
         { proName: "FOREXCOM:GOLD", title: "Gold" },
         { proName: "FOREXCOM:SILVER", title: "Silver" },
-        { proName: "NYMEX:CL1!", title: "Crude Oil" },
-        { proName: "NYMEX:NG1!", title: "Natural Gas" },
 
         // FX
-        { proName: "FX:USDINR", title: "USD/INR" },
         { proName: "FX:EURUSD", title: "EUR/USD" },
         { proName: "FX:GBPUSD", title: "GBP/USD" },
         { proName: "FX:USDJPY", title: "USD/JPY" },
